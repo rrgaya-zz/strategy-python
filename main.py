@@ -1,6 +1,6 @@
-from shipping import Default, Express
-from order import Order
-from calcute_shipping import CalculateShipping
+from strategy.shipping import Default, Express
+from strategy.order import Order
+from strategy.calcute_shipping import CalculateShipping
 
 
 order = Order(500)
